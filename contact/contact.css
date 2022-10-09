@@ -32,6 +32,7 @@ body {
     padding: 20px;
     position: relative;
     position: relative;
+    animation: fadeIn 1s;
 }
 
 #product-overview h1 {
@@ -154,3 +155,79 @@ h1 {
     padding:12px;
     box-shadow: none;
 }
+
+
+
+
+.signup-form {
+    padding: 1rem;
+}
+
+.signup-form label{
+    font-weight:bold;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+    display: inline-block;
+    width: auto;
+}
+
+
+.signup-form input[id*="description"] {
+    height: 300px;
+    /* width: auto; */
+}
+
+.signup-form input,
+.signup-form select {
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    outline: none;
+    background: #ccc;
+    border-color: #ff1b68;
+}
+
+
+.signup-form button[type="submit"] {
+    display:block;
+    margin-top: 1rem;
+    color:white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    width: 130px;
+    height: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+@media (min-width: 40rem) {
+    .signup-form {
+        margin: auto;
+        width: 45rem;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
