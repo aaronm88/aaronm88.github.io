@@ -130,7 +130,7 @@ h1 {
     gap: 100px;
 }
 
-
+/* 
 .section-button {
     width: 130px;
     height: 50px;
@@ -142,7 +142,7 @@ h1 {
     border:none;
     padding: 8px 16px;
     border-radius: 8px;
-}
+} */
 
 .section-picture__anomaly_detection {
     height: 850px;
@@ -188,5 +188,27 @@ h1 {
 
 .modal-sub-subheader {
     font-weight: normal;
+}
+
+.section-button {
+    color:white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    width: 170px;
+    height: 70px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.section-button:hover,
+.section-button:active {
+    color:#ff1b68;
+    background: white;
+    border: none;
 }
 
