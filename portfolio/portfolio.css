@@ -169,8 +169,8 @@ h1 {
 } 
 
 .section-picture__meters {
-    height: 550px;
-    width: 800px;
+    height: 800px;
+    width: 900px;
     padding:20px; 
     position:relative;
     border: 2px solid #ccc; 
