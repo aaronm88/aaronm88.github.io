@@ -45,6 +45,10 @@ body {
     position: relative;
 }
 
+
+
+
+
 #portfolio-overview h1 {
     position: relative;
     text-align: left;
@@ -121,7 +125,7 @@ h1 {
     border-radius: 8px;
 }
 
-.wrapper {
+/* .wrapper {
     display: flex;
     width:100%;
     margin:50px;
@@ -129,7 +133,16 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 100px;
-}
+} */
+
+
+.wrapper {
+    display: flex;
+    margin:10px;
+    padding:15px; 
+    align-items: center;
+    justify-content: center;
+}  
 
 
 .section-button {
@@ -224,11 +237,13 @@ h1 {
 }
 
 .section-picture__anomaly_detection {
-    height: 850px;
-    width: 850px;
+    /* height: 850px;
+    width: 850px; */
+    height: 700px;
+    width: 500px;
     padding:20px; 
-    position:relative;
-    left: 200px; 
+    /* position:relative;
+    left: 200px;  */
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
@@ -257,18 +272,18 @@ h1 {
 } 
 
 .section-picture__webdev {
-    height: 700px;
-    width: 700px;
+    height: 650px;
+    width: 650px;
     padding:20px; 
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
-    box-shadow: 10px 8px 10px 8px #00000080;
+    box-shadow: -10px 8px 10px 8px #00000080;
 }
 
 .section-picture__productdev {
-    height: 700px;
-    width: 750px;
+    height: 600px;
+    width: 675px;
     padding:20px; 
     border: 2px solid #ccc; 
     border:none;
@@ -278,23 +293,23 @@ h1 {
 
 .section-picture__dashboarding {
     /* height: 630px; */
-    height: 700px;
-    width: 900px;  
+    height: 525px;
+    width: 675px;
     padding:20px; 
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
-    box-shadow: 10px 8px 10px 8px #00000080;
+    box-shadow: -10px 8px 10px 8px #00000080;
 } 
 
 .section-picture__meters {
-    height: 700px;
-    width: 875px;
+    height: 600px;
+    width: 675px;
     padding:20px; 
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
-    box-shadow: 10px 8px 10px 8px #00000080;
+    box-shadow: -10px 8px 10px 8px #00000080;
 }
 
 .dataviz__modal {
