@@ -218,12 +218,13 @@ h1 {
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
-    box-shadow: -10px 8px 10px 8px #00000080;
+    box-shadow: 10px 8px 10px 8px #00000080;
 } 
 
-.section-picture__meters {
+
+.section-picture__pfas {
     /* height: 600px;
-    width: 700px; */
+    width: 675px; */
 
     height: 600px;
     width:750px;
@@ -232,7 +233,24 @@ h1 {
     border: 2px solid #ccc; 
     border:none;
     border-radius: 8px;
-    box-shadow: 10px 8px 10px 8px #00000080;
+    box-shadow: -10px 8px 10px 8px #00000080;
+} 
+
+
+
+
+.section-picture__meters {
+    /* height: 600px;
+    width: 700px; */
+
+    height: 600px;
+    width:725px;
+    padding:20px; 
+    /* position:relative; */
+    border: 2px solid #ccc; 
+    border:none;
+    border-radius: 8px;
+    box-shadow: -10px 8px 10px 8px #00000080;
 } 
 
 

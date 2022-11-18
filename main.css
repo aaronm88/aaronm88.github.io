@@ -160,6 +160,9 @@ h1 {
 .linkedin-profile-link {
     padding:8px;
     box-shadow: none;
+    text-align: center;
+    align-items: center;
+    display:inline-block;
 }
 
 @keyframes fadeIn {
