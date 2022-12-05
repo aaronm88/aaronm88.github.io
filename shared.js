@@ -1,4 +1,5 @@
 const backdrop = document.querySelector('.backdrop')
+console.log(backdrop);
 
 const dataviz_modal = document.querySelector('.dataviz__modal')
 const dashboard_modal = document.querySelector('.dashboarding__modal');
