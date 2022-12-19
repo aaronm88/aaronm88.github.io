@@ -1,12 +1,12 @@
 #bio-picture {
     width: 350px;
-    height: 500px; 
+    height: 350px; 
     /* position: relative; */
     /* top: 60px;
     left:20px; */
-    border: 2px solid #04253f;
+    /* border: 2px solid #04253f;
     box-shadow: 2px 2px 6px #00000080;
-    border-radius: 6px;
+    border-radius: 6px; */
 }
 
 .bio-picture__div {
@@ -172,8 +172,13 @@ main {
 }
 
 #aaron__photo__guatemala {
-    width: 300px;
+    width: 350px;
     height: 275px;
+}
+
+#aaron__photo__profile {
+    width: 265px;
+    height: 400px;
 }
 
 #aaron__photo__spain {
