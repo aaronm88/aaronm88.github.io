@@ -1,5 +1,4 @@
 const backdrop = document.querySelector('.backdrop')
-console.log(backdrop);
 
 const dataviz_modal = document.querySelector('.dataviz__modal')
 const dashboard_modal = document.querySelector('.dashboarding__modal');
@@ -7,7 +6,6 @@ const ai_modal = document.querySelector('.ai__modal');
 const fullstack_modal = document.querySelector('.fullstack__modal');
 const pm_modal = document.querySelector('.pm__modal');
 const consulting_modal = document.querySelector('.consulting__modal');
-
 
 const datavizModalNoButton = document.querySelector(".modal__action--negative")
 const dashboardingModalNoButton = document.querySelector(".dashboarding-modal__action--negative")
