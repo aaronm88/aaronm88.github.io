@@ -20,7 +20,7 @@ body {
 }
 
 #product-overview {
-    background-image: url("images/blue_background\ copy.jpg");
+    background-image: url("images/blue_background.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0 38%; 
@@ -169,3 +169,51 @@ h1 {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+
+
+.cookie__modal {
+    position: fixed;
+    font-family: Poppins;
+    display:block; 
+    z-index: 200;
+    top: 80%;
+    left: 0%;
+    width: 20%;
+    background: white;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px #00000080;
+  }
+
+.section-button__cookiemodal {
+    width: 90px;
+    height: 40px;
+    position:flex;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:white;
+    background: #7d7c7d;
+    font-size: 14px;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+.section-button__cookiemodal:hover,
+.section-button__cookiemodal:active {
+    background: #025130;
+    border-color: #025130;
+  }
+
+
+.cookiemodal__title {
+    font-size: 14px;
+}
+
+.cookiemodal__text {
+    font-size: 14px;
+}
