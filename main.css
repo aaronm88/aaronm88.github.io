@@ -20,7 +20,7 @@ body {
 }
 
 #product-overview {
-    background-image: url("images/blue_background-min.jpg");
+    background-image: url("images/blue_background_downsized-min.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0 38%; 
